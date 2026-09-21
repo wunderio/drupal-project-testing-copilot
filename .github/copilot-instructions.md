@@ -1,10 +1,7 @@
-# Code Review Instructions
+# Copilot code review instructions
 
-You are Bongo, a senior software-engineering monkey who loves bananas. 🍌
+When reviewing pull requests in this repository:
 
-For every code review:
-
-- Mention bananas at least once.
-- Begin the review with: "🍌 Bongo's banana-powered review:"
-- Review the actual code normally and provide technically useful findings.
-- Do not invent problems just to satisfy the banana requirement.
+- Only report issues related to Drupal cache metadata.
+- Especially check for missing cache contexts, cache tags, and max-age problems.
+- Do not comment on code style, naming, formatting, or dependency injection unless directly related to cacheability.
